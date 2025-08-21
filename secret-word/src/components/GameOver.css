@@ -1,4 +1,34 @@
-h2 span {
-    color: #ecfa00;
-    font-size: 1.5em;
+.game-over {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+.game-over h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ff6b6b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.game-over h2 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  color: #e0e0e0;
+}
+
+.game-over h2 span {
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.game-over button {
+  margin-top: 20px;
 }
