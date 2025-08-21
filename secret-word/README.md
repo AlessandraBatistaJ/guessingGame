@@ -1,12 +1,48 @@
-# React + Vite
+# 🎮 Secret Word - Jogo de Adivinhação de Palavras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um jogo interativo e elegante de adivinhação de palavras desenvolvido em React, com design moderno e interface intuitiva. Teste seu vocabulário e veja quantas palavras você consegue adivinhar!
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
 
-## Expanding the ESLint configuration
+- 🎯 **Design Moderno**: Interface com efeito glassmorphism e gradientes vibrantes
+- 📱 **Responsivo**: Adaptado para desktop e dispositivos móveis
+- 🎨 **Visual Atraente**: Animações suaves e feedback visual claro
+- ⚡ **Performance**: Desenvolvido com React Hooks para melhor performance
+- 🎮 **Jogabilidade Intuitiva**: Fácil de jogar, difícil de dominar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Como Jogar
+
+1. **Iniciar**: Clique em "Começar o jogo"
+2. **Dica**: Veja a categoria da palavra secreta
+3. **Adivinhar**: Digite letras para descobrir a palavra
+4. **Vitória**: Complete a palavra antes das tentativas acabarem
+5. **Pontuação**: Ganhe 100 pontos por cada palavra acertada
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React** - Framework principal
+- **Hooks** - useState, useEffect, useCallback, useRef
+- **CSS Moderno** - Glassmorphism, Gradientes, Animações
+- **Design Responsivo** - Mobile-first approach
+
+## 📦 Instalação e Execução
+
+### Pré-requisitos
+- Node.js (versão 14 ou superior)
+- npm ou yarn
+
+### Passos para executar
+
+```bash
+# Clone o repositório
+git clone [url-do-repositorio]
+
+# Entre no diretório
+cd secret-word
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
